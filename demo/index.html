@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- header -->
+        <link href="css/styles.css" rel="stylesheet">
+        <link href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+        <!-- end header -->
+    </head>
+    <body>
+        <div id="intro">
+            <div class="story">
+                <div class="float-left">
+                    <h2>Star Wars: A New Parallax</h2>
+                    <p>Em preparação para o próximo "Star Wars: Rogue One" a equipe Gauntē decidiu escrever um post temático Star Wars sobre a adição de parallax usando jQuery ScollTo.</p>
+                </div>
+            </div>
+            <!--.story-->
+        </div>
+        <div id="second">
+            <div class="story">
+                <div id="second-inner"></div>
+                <div class="float-right">
+                    <h2>The Parallax Strikes Back</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nibh erat, sagittis sit amet congue at, aliquam eu libero. Integer molestie, turpis vel ultrices facilisis, nisi mauris sollicitudin mauris, volutpat elementum enim urna eget odio.</p>
+                </div>
+            </div>
+            <!--.story-->
+        </div>
+        <div id="third">
+            <div class="story">
+                <div class="float-left">
+                     <h2>The Return of Parallax</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nibh erat, sagittis sit amet congue at, aliquam eu libero. Integer molestie, turpis vel ultrices facilisis, nisi mauris sollicitudin mauris, volutpat elementum enim urna eget odio.</p>
+                </div>
+            </div>
+            <!--.story-->
+        </div>
+    </body>
+    <!-- footer -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/jquery.parallax.js"></script>
+    <script>
+    $(document).ready(function(){
+        $('#intro').parallax();
+        $('#second').parallax({speedFactor:0.2});
+        $('#second-inner').parallax({offsetX:"0%",offsetY:200,speedFactor:0.4});
+        $('#third').parallax({speedFactor:0.4});
+    });
+    </script><!-- end footer -->
+</html>

@@ -1,0 +1,134 @@
+html {
+    width: 100%;
+    overflow-x: hidden;
+}
+body {
+    width: 100%;
+    margin: 0;
+}
+p {
+    margin: 0 0 20px 0;
+}
+p,
+ul {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size-adjust: 0.488;
+    font-weight: 200;
+    font-style: normal;
+}
+img {
+    border: 0;
+    width: 100%;
+}
+h1,
+#pixels {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size-adjust: 0.40;
+    font-weight: 700;
+    font-style: normal;
+}
+h2 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size-adjust: 0.531;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 45px;
+    line-height: 52px;
+}
+#header h1,
+#pixels {
+    color: #48941A;
+}
+.float-left {
+    float: left;
+    margin: 0 0 0 0px;
+}
+.float-right {
+    float: right;
+    margin: 0 0px 0 0;
+}
+.center {
+    font-size: 2.5em;
+    padding: 80px 0 0 0;
+    text-align: center;
+}
+#nav {
+    list-style: none;
+    position: fixed;
+    right: 20px;
+}
+#nav li {
+    margin: 0 0 15px 0;
+}
+#header,
+#intro,
+#second {
+    width: 100%;
+}
+#intro {
+    background: url(../img/img1.jpg) 50% 0 no-repeat fixed;
+    background-size: cover;
+    color: white;
+    height: 600px;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+}
+#second {
+    background: url(../img/img2.jpg) 50% 0 no-repeat fixed;
+    background-size: cover;
+    color: white;
+    height: 1300px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0;
+    width: 100%;
+}
+#second-inner {
+    background: url(../img/img-inner.png) 50% 500px no-repeat fixed;
+    height: 1300px;
+    margin: 0 auto;
+    padding: 0;
+    position: absolute;
+    left: 0;
+    z-index: 200;
+    max-width: 1900px;
+    width: 100%;
+    overflow: hidden;
+}
+#third {
+    background: url(../img/img3.jpg) 50% 0 no-repeat fixed;
+    background-size: cover;
+    color: black;
+    height: 650px;
+    padding: 100px 0 0 0;
+    width: 100%;
+    overflow: hidden;
+    padding: 0;
+    color: #fff;
+}
+#fifth {
+    background: #ccc;
+    height: 400px;
+    margin: 0 auto;
+    padding: 40px 0 0 0;
+}
+.story {
+    margin: 0 auto;
+    max-width: 1170px;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+.story .float-left,
+.story .float-right {
+    padding: 100px 0 0 0;
+    position: relative;
+    width: 350px;
+    min-width: 480px;
+    width: 33%;
+    background: rgba(0, 0, 0, 0.75);
+    height: 100%;
+    padding: 5% 50px;
+    z-index: 300;
+}

@@ -1,0 +1,13 @@
+{
+  "name": "jQuery Parallax",
+  "version": "1.0.0",
+  "description": "jQuery Parallax is a script that simulates the parallax effect.",
+  "main": "jquery.parallax.min.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leowebguy/jquery-parallax.git"
+  },
+  "bugs": {
+    "url": "https://github.com/leowebguy/jquery-parallax/issues"
+  }
+}

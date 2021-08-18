@@ -1,0 +1,17 @@
+# npm
+package-lock.json
+node_modules
+
+# ide
+.idea
+.vscode
+*.sublime-workspace
+*.sublime-project
+
+# misc
+.sass-cache
+.cache
+.DS_Store
+*.esproj
+*.tmproj
+*.tmproject
